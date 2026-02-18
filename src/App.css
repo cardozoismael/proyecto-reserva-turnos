@@ -1,0 +1,91 @@
+.titulo{
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-geist-sans);
+  font-size: 40px;
+  color: rgb(50, 50, 50);
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    font-family: var(--font-geist-sans);
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.contenedor{
+  width: 500px;
+  height: 300px;
+  background-color: rgb(165, 165, 165);
+  margin: auto;
+  justify-items: center;
+  align-content: center;
+}
+
+.selectorM{
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+.btnSeleccionar{
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+}
+
+
+
+
+.contenedorTabla{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.contenedorTurnos{
+  width: 40%;
+  margin: 60px auto;
+  background-color: rgb(70, 68, 68);
+}
+
+.seccion{
+  width: 420px;
+  height: 50px;
+  border: 2px solid white;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+
+.turnosSelecionados{
+  border: 3px solid white;
+  width: 380px;
+  text-align: center;
+}
+
+.secciones{
+  width: 420px;
+  height: 50px;
+  border: 2px solid white;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-between;
+  color: rgb(20, 20, 20);
+  text-align: center;
+}
+
+.estado{
+  font-weight: bold;
+  color: green;
+}

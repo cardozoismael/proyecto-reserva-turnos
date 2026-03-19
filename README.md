@@ -1,16 +1,18 @@
-# React + Vite
+## Reservas de Turnos Médicos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación en **React** que permite:
+- Seleccionar entre varias opciones de doctores.
+- Reservar un turno con el doctor elegido.
+- Visualizar las reservas en una tabla organizada.
 
-Currently, two official plugins are available:
+### Instalación
+1. Clona el repositorio.
+2. Ejecuta `npm install` para instalar dependencias.
+3. Corre el proyecto con `npm start`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Uso
+- Elige un doctor de la lista desplegable.
+- Confirma la reserva.
+- La tabla mostrará el doctor y el turno reservado.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
